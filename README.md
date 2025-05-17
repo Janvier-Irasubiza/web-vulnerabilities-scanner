@@ -30,7 +30,7 @@ The Web Vulnerability Scanner is a comprehensive tool designed to identify vario
 To run the vulnerability scanner, execute the following command:
 
 ```bash
-ts-node src/app.ts
+npm start
 ```
 
 Make sure to replace `ts-node` with the appropriate command if you are using a different TypeScript execution method.

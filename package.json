@@ -4,8 +4,7 @@
   "description": "A comprehensive web vulnerability scanner that identifies various vulnerabilities in web applications.",
   "main": "src/app.ts",
   "scripts": {
-    "start": "ts-node src/app.ts",
-    "test": "jest"
+    "start": "ts-node src/app.ts"
   },
   "dependencies": {
     "axios": "^0.21.1",
