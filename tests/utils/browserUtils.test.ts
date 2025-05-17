@@ -1,5 +1,3 @@
-Sure, here's the contents for the file: /web-vulnerability-scanner/web-vulnerability-scanner/tests/utils/browserUtils.test.ts
-
 import { launchBrowser, closeBrowser } from '../../src/utils/browserUtils';
 
 describe('Browser Utility Functions', () => {

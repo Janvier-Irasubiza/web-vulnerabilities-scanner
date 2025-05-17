@@ -42,4 +42,9 @@ export class XSSScanner {
 
     return null;
   }
+
+  // Add this public method for testing
+  public async testAnalyzeResponse(payload: string) {
+    return this.analyzeResponse(payload);
+  }
 }
