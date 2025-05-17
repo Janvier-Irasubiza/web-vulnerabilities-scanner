@@ -7,7 +7,7 @@ import { generateReport } from "./utils/reportGenerator";
 import { ScannerConfig } from "./types/scannerConfig";
 
 async function main() {
-  const targetUrl = "http://13.60.183.62/";
+  const targetUrl = "your-target-url-domain-or-ip"; // Replace with the target URL or IP address
 
   const config: ScannerConfig = {
     timeout: 5000,
