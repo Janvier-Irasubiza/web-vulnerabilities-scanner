@@ -1,0 +1,29 @@
+{
+  "name": "web-vulnerability-scanner",
+  "version": "1.0.0",
+  "description": "A comprehensive web vulnerability scanner that identifies various vulnerabilities in web applications.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.18.126",
+    "jest": "^27.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "keywords": [
+    "vulnerability",
+    "scanner",
+    "web",
+    "security"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
